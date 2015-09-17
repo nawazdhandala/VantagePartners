@@ -5,8 +5,6 @@ var rpc = require('avs-rpc');
 var sockets = [];
 var senderId = null;
 var dataStore = [{"PersonID":"abcd123", "FirstName": "Sample1","LastName": "Cliente 1","Country": "1 - Cliente 1"},{"PersonID":"abcd124", "FirstName": "Sample2","LastName": "Cliente 2","Country": "1 - Cliente 1"}];
-
-
 //Socket
 module.exports.run = function (worker) {
 
